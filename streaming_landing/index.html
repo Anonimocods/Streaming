@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/streaming_landing/src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="/streaming_landing/assets/netflix-logo.png" alt=""></a>
+        <ul class="navegation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="bi bi-search"></i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="#" class="bg">
+
+        <div class="content">
+            <img src="#" class="movieTitle">
+            <h4>
+                <span>2020</span>
+                <span><i>12+</i></span>
+                <span>1h 55m</span>
+                <span>Action</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur delectus fuga obcaecati et minus illum voluptate velit, sapiente aperiam quae laborum maxime rerum accusantium neque accusamus est, beatae veritatis dicta!
+
+            </p>
+
+            <div class="buttons">
+                <a href="#"><i class="bi bi-play-circle-fill" aria-hidden="true"></i>Play</a>
+                <a href="#"><i class="bi bi-list" aria-hidden="false"></i>My list</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><i class="bi bi-play-circle"></i>Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="#" controls="true"></video>
+        <i class="bi bi-x-lg" onclick="toggleVideo()"></i>
+    </div>
+</body>
+<script src="/streaming_landing/src/script.js"></script>
+</html>
